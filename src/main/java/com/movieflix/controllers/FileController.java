@@ -20,7 +20,7 @@ import com.movieflix.service.FileService;
 import jakarta.servlet.http.HttpServletResponse;
 
 @RestController
-@RequestMapping("/file")
+@RequestMapping("/file/")
 public class FileController {
 
 	
