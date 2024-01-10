@@ -43,7 +43,6 @@ public class Movie {
 	
 
 	@Column(nullable = false)
-	@NotBlank(message = "Please Provide movie's release year!")
 	private Integer releaseYear;
 	
 	@Column(nullable = false)
